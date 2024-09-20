@@ -1,0 +1,81 @@
+/* src/App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a2e; /* Fundo azul escuro profundo */
+  color: #ffffff; /* Texto branco */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #16213e; /* Cor do menu */
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+h1 {
+  color: #e94560; /* Cor do título */
+}
+
+.paginainicial {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #0f3460;
+  transition: background-color 0.3s ease;
+}
+
+.paginainicial:hover {
+  background-color: #e94560; /* Efeito hover */
+}
+
+div {
+  padding: 2rem;
+}
+
+h2 {
+  color: #e94560;
+}
+/* src/components/BoasVindas.css */
+.boas-vindas {
+  text-align: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #a450cf;
+}
+
+.boas-vindas h1 {
+  color: #ffffff;
+}
+
+.boas-vindas p {
+  color: #ffffff;
+}
